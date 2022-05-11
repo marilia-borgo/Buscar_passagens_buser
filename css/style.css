@@ -47,9 +47,27 @@ select{
     width:100%;
     font-size:14px;
     padding:5px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #C1C1C1;
+    background-color: #FFFFFF;
 }
 
 input{
     width: 99%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #C1C1C1;
   
+}
+
+main > button{
+    background-color: #F11075;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 5px;
+    padding: 3%;
 }
