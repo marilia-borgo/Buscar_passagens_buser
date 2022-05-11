@@ -86,8 +86,9 @@ main > button{
 }
 
 .onibus_img > img{
+    text-align: center;
     height: 230px;
-    width: 480px;
+    width: 460px;
 }
 
 
