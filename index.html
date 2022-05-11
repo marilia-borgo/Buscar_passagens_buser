@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Buscador de passagem</title>
+</head>
+<body>
+    <nav>
+        <img src="https://www.livelo.com.br/file/general/config_BSR_logo-buser-cep.png" alt="" srcset="">
+        <button>Entrar</button>
+    </nav>
+
+    <div class="top_text">
+        <h1>VIAGENS DE ÔNIBUS MAIS BARATAS QUE A PASSAGEM DA RODOVIÁRIA</h1>
+        <p>Sem taxas com segurança e preço justo</p>
+    </div>
+
+    <main>
+       <div class="input_saindo">
+        <label for="saida">Saindo de:</label>
+         <select id="saida" name="listacidades">
+          <option value="sjc">São josé dos campos</option>
+          <option value="sp">São Paulo</option>
+          <option value="rj">Rio de Janeiro</option>
+          <option value="bh">Belo Horizonte</option>
+        </select>
+    </div>
+
+    <div class="input_chegada">
+        <label for="chegada">Indo para:</label>
+        <select id="chegada" name="listacidades">
+          <option value="sjc">São josé dos campos</option>
+          <option value="sp">São Paulo</option>
+          <option value="rj">Rio de Janeiro</option>
+          <option value="bh">Belo Horizonte</option>
+        </select>
+     </div>   
+ 
+      <div class="input_data_ida">
+         <label for="data_saida">Data de ida</label> 
+        <input type="date" name="data_ida" id="data_ida">
+      </div>
+
+      <div class="input_data_volta">
+        <label for="data_saida">Data de volta</label> 
+        <input type="date" name="Data_volta" id="data_volta">
+    </div>
+
+        <button>Buscar</button>
+    </main>
+    
+</body>
+</html>
